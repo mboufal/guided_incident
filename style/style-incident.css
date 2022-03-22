@@ -9,3 +9,280 @@
     .image3 {
       height: 35px;
     }
+	
+/* style for incident page */
+
+body{
+  line-height: 1.6;
+  font-family: Roboto Condensed, sans-serif;
+}
+h1 {
+  color: #A52A2A;
+  font-family: Gloria Hallelujah, cursive;
+  text-align: center;
+  margin: auto;
+}
+h2{
+  color: purple;
+  text-align: center;
+  font-family: Gloria Hallelujah, cursive;
+}
+footer{ 
+  width: 960px;
+  margin: auto;
+  text-align: center;
+}
+footer ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px;
+  font-size: 1.5em;
+}
+#logo{
+  width:100%;
+}
+#main-nav{
+  width: 960px;
+  margin: auto;
+  background:#49a942;
+}
+.wrapper{
+  width: 960px;
+  margin: auto;
+  padding: 30px;
+}
+.nav-logo{
+  display: block;
+  width: 360px;
+  margin: auto;
+}
+.main-img{
+  width: 50%;
+}
+
+/*----------------------------Top Navigation ------------------------------*/
+.topnav{
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #D2D2D2;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #49a942;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+/*----------------------------top nav--------------------------end*/
+/*----------------------------Dropdown Button----------------------------- */
+.dropbtn {
+  background-color: #49a942;
+  color: white;
+  padding: 16px;
+  font-size: 1.5em;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.dropdown a {
+ text-decoration:none;
+ color: white; 
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D2D2D2;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5em;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/*----------------------------dropdown Button----------------------------- end */
+
+
+/*------------------------------MEDIA QUERIES------------------------------*/
+@media screen and (max-width: 960px){ /*screen sizes less than 960px wide*/
+.wrapper{
+  width: 600px;
+}
+#main-nav{
+  width: 100%;
+}
+.dropdown {
+  width: 100%;
+}
+footer{
+  width: 600px;
+}
+.main-img{
+  width: 100%;
+}
+/*----------------------------FORM @960PX-----------------------------*/
+/*CONTACT US > GET NEWSLETTER @sing-up-subpage @960*/
+.wrapper h5{	
+  width: 80%;
+  margin: 25px 10%;
+  font-size: 1.5em;
+  text-align: center;
+}
+.form-form{
+  width: 100%;
+}
+.form-fields{
+  width: 100%;
+}
+.form-label{
+  width: 100%;
+  font-size: 1.5em;
+}
+.form-input input{
+  width: 100%;
+  height: 3.5em;
+}
+.form-button button{
+  width: 80%;
+  margin: 25px 10%;
+}
+/*CONTACT US > SEND MESSAGE @contact-subpage @960*/
+.contact-form{
+	float: none;
+	width: 100%;
+	text-align: left;
+	font-size: 1.5em;
+}
+.contact-fields{
+	width: 100%;
+}
+.contact-label{
+width: 100%;
+}
+.contact-input{
+width: 100%;
+height: 3em;
+}
+.contact-button{
+	width:80%;
+	margin: 0 10% 0 10%;
+}
+.contact-message{
+	width:100%;
+}
+textarea {
+  width: 100%;
+}
+/*----------------------------end of FORM @960 style*/	
+}
+
+@media screen and (max-width: 600px) {/*screen sizes less than 600px */
+/*----------------------------TOP NAV @600---------------------------*/
+.wrapper{
+  width: 300px;
+}
+#main-nav{
+  width: 100%;
+}
+.dropdown {
+  width: 100%;
+}
+footer{
+  width: 300px;
+}
+.main-img{
+  width: 100%;
+}
+.topnav a:not(:first-child) {
+  display: none;
+}
+
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+.topnav.responsive {
+  position: relative;
+}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+/*----------------------------TOP NAV end*/
+
+/*----------------------------FORM style @600-----------------------------*/
+/*CONTACT US > GET NEWSLETTER @sign-up-subpage @600*/
+.form-button button{
+ width: 100%;
+}
+/*CONTACT US > SEND MESSAGE @contact-subpage @600*/
+.contact-form{
+  float: none;
+  width: 90%;
+  margin: 25px 5%;
+  text-align: center;
+}
+.contact-fields{
+  width: 100%;
+}
+.contact-label{
+  width: 100%;
+  font-size: 1.5em;
+}
+.contact-input{
+  width: 100%;
+  height: 3em;
+}
+.contact-button{
+  width: 90%;
+  margin: 10px 5%;
+}
+.contact-message{
+  width: 90%;
+  margin: 10px 5%;
+}
+textarea {
+  width: 100%;
+}
+/*end of FORM @ 600 style */	
+}

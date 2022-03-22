@@ -5,37 +5,39 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IPRO GROUP E</title>
-  <style>
-    .image {
-      height: 50px;
-    }
+  <link rel="icon" href="images/incident_icon.png">
+  <link rel="stylesheet" type="text/css" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style-incident.css">
 
-    .image2 {
-      height: 100px;
-    }
-
-    .image3 {
-      height: 35px;
-    }
-  </style>
-  <!-- Parse JS for Database Connection -->
+ <script type="text/javascript" src="js/incident_page.js"></script> 
+<!-- Parse JS for Database Connection -->
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
-  <!-- Database Connection -->
+<!-- Database Connection -->
   <script type="text/javascript" src="js/DBConnect.js"></script>
+  
+  <title>IPRO GROUP E | Accident Reports</title>
 </head>
 
 <body>
-  <div style="width: 50%">
-    <div style="display: flex; justify-content: space-between">
+   <div class="topnav" id="myTopnav"><!--TOP NAVIGATION-->
+    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="map.html">Map</a>
+	<a href="registration.html">Register</a>
+	<a href="about.html">About</a>
+	<a href="incident.html">Raports</a>
+    <a href="mailto:#null">Email us!</a>
+    <a href="tel:+05890000111">Call us!</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    <div>
       <div>
-        <a href="index.html">
-          <img src="images/home.png" alt="blue home button" class="image" /></a>
+        <a href="index.html"><img src="images/home.png" alt="blue home button" class="image" /></a>
       </div>
     </div>
-  </div>
-  <div style="width: 50%">
-    <p style="text-align:center">Incidents</p>
+  <div>
+    <p>Incidents</p>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maiores ducimus explicabo voluptatibus praesentium
       voluptates soluta adipisci ipsa eaque vel optio, placeat dignissimos officiis eum obcaecati blanditiis quasi totam
@@ -48,12 +50,10 @@
 
   </div>
   </div>
-  <div style="width: 50%">
-    <div style="display: flex; justify-content: center">
-      <a href="callbutton.html">
-        <img src="images/911button.jpg" alt="Call Emerigency Services" class="image2" /></a>
+  <div>
+    <div>
+      <a href="callbutton.html"><img src="images/911button.jpg" alt="Call Emerigency Services" class="image2" /></a>
     </div>
-  </div>
   </div>
 </body>
 
