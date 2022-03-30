@@ -9,31 +9,33 @@
   <link rel="stylesheet" type="text/css" href="style/normalize.css">
   <link rel="stylesheet" href="style/style-incident.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
- <script type="text/javascript" src="js/incident_page.js"></script> 
-<!-- Parse JS for Database Connection -->
+  <link href "https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="js/incident_page.js"></script>
+  <!-- Parse JS for Database Connection -->
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
-<!-- Database Connection -->
+  <!-- Database Connection -->
   <script type="text/javascript" src="js/DBConnect.js"></script>
-  
+
   <title>IPRO GROUP E | Accident Reports</title>
 </head>
 
 <body>
-   <div class="topnav" id="myTopnav"><!--TOP NAVIGATION-->
-    <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+  <div class="topnav" id="myTopnav"> <!--TOP NAVIGATION-->
+    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
     <a href="map.html">Map</a>
-	<a href="registration.html">Register</a>
-	<a href="about.html">About</a>
-	<a href="incident.html" class="active">Reports</a>
-<!--<a href="mailto:#null">Email us!</a> 
+    <a href="signin.html">Sign In</a>
+    <a href="registration.html">Register</a>
+    <a href="about.html">About</a>
+    <a href="incident.html">Reports</a>
+    <!--<a href="mailto:#null">Email us!</a> 
     <a href="tel:+05890000111">Call us!</a> -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
+  <!--END OF TOP NAVIGATON-->
   <div class="wrapper">
     <p>Incidents</p>
     <p>
@@ -41,15 +43,6 @@
       voluptates soluta adipisci ipsa eaque vel optio, placeat dignissimos officiis eum obcaecati blanditiis quasi totam
       nobis!
     </p>
-	<p>HISTORY, PURPOSE AND USAGE
-Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
-
-“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
-The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
-
-The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.
-
-Origins and Discovery</p>
 
     <div id="incidents">
 
@@ -58,12 +51,13 @@ Origins and Discovery</p>
   </div>
   <div class="footer1">
     <ul class="topnav-centered">
-	  <li><a href="report.html"><img src="images/report-button.jpg" alt="Red Button to report an indcident" class="icon-style"/></a></li>
+	  <li><a href="report.html"><img src="images/report-button.png" alt="Red Button to report an indcident" class="icon-style"/></a></li>
       <li><a href="callbutton.html"><img src="images/911button.jpg" alt="Call Emerigency Services" class="icon-style" /></a></li>
-	  <li><a href="walkbuddy.html"><img src="images/green.jpg" alt="Green button to find a walk buddy" class="icon-style"/></a></li>
+	  <li><a href="walkbuddy.html"><img src="images/green.png" alt="Green button to find a walk buddy" class="icon-style"/></a></li>
     </ul>
   </div>
 </body>
+
 <script type="text/javascript" src="js/ReportRead.js"></script>
 
 </html>
