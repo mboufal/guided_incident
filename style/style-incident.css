@@ -15,6 +15,7 @@
 body{
   line-height: 1.6;
   font-family: Roboto Condensed, sans-serif;
+  margin-bottom: 300px;
 }
 h1 {
   color: #A52A2A;
@@ -27,19 +28,35 @@ h2{
   text-align: center;
   font-family: Gloria Hallelujah, cursive;
 }
-footer{ 
-  width: 960px;
-  margin: auto;
-  text-align: center;
+/*------------------------statick footer------------------------*/
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 20%;
+  background-color: #D0DAEE;
 }
-footer ul li{
-  display: inline-block;
+.footer ul{
   list-style-type: none;
-  margin: 20px;
-  font-size: 1.5em;
+  padding: 0;
+  overflow: hidden;
 }
-#logo{
-  width:100%;
+.footer ul li{
+	display: inline;
+}
+
+.icon-style {
+  height:100px;
+  margin-left:2px;
+  margin-top:5px;
+}
+.topnav-centered{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #main-nav{
   width: 960px;
@@ -150,12 +167,21 @@ footer ul li{
   width: 100%;
 }
 footer{
-  width: 600px;
+  width: 100%;
 }
 .main-img{
   width: 100%;
 }
-
+.icon-style{
+	width: 30%;
+	heigh: 200px;
+}
+.topnav-centered{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom: 25%;
+}
 
 @media screen and (max-width: 600px) {/*screen sizes less than 600px */
 /*----------------------------TOP NAV @600---------------------------*/
@@ -168,16 +194,13 @@ footer{
 .dropdown {
   width: 100%;
 }
-footer{
-  width: 300px;
-}
+
 .main-img{
   width: 100%;
 }
 .topnav a:not(:first-child) {
   display: none;
 }
-
 .topnav a.icon {
   float: right;
   display: block;
@@ -196,6 +219,8 @@ footer{
   text-align: left;
 }
 /*----------------------------TOP NAV end*/
-
+footer{
+  width: 300px;
+}
 
 }
