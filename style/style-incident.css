@@ -29,7 +29,7 @@ h2{
   font-family: Gloria Hallelujah, cursive;
 }
 /*------------------------statick footer------------------------*/
-.footer {
+.footer1 {
   position:fixed;
   bottom:0;
   left:0;
@@ -37,12 +37,12 @@ h2{
   height: 20%;
   background-color: #D0DAEE;
 }
-.footer ul{
+.footer1 ul{
   list-style-type: none;
   padding: 0;
   overflow: hidden;
 }
-.footer ul li{
+.footer1 ul li{
 	display: inline;
 }
 
