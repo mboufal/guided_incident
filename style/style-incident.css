@@ -166,9 +166,6 @@ h2{
 .dropdown {
   width: 100%;
 }
-footer{
-  width: 100%;
-}
 .main-img{
   width: 100%;
 }
@@ -219,8 +216,5 @@ footer{
   text-align: left;
 }
 /*----------------------------TOP NAV end*/
-footer{
-  width: 300px;
-}
 
 }
