@@ -8,7 +8,7 @@
 /* (B) FIXED WRAPPER */
 .vwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background: #2c6129;
+  background: #49a942;
 }
 /* (C) TICKER ITEMS */
 .vitem { text-align: center;
@@ -146,13 +146,12 @@
       margin: 4px 2px;
       cursor: pointer;
     }
-	
+
 #incidents{
 	font-size: 1.5em;
 	background: yellow;
 	border: 1px solid black;
-}	
-
+}
 	
 /*------------------------statick footer------------------------*/
 .footer1 {
@@ -187,13 +186,16 @@
   margin-top:5px;
   margin-bottom: 10px;
 }
+.logo{
+	text-align:center;
+}
 /*--------------------------------wrapper----------------------------------*/
 .wrapper{
   width: 960px;
   margin: auto;
+  margin-bottom: 100px;
   padding: 30px;
   padding-bottom:160px;
-  
 }
 
 /*----------------------------Top Navigation ------------------------------*/
