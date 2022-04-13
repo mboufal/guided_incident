@@ -146,18 +146,13 @@
       margin: 4px 2px;
       cursor: pointer;
     }
-
-	
 	
 #incidents{
 	font-size: 1.5em;
 	background: yellow;
 	border: 1px solid black;
 }	
-#incident.div {
-	display: block;
-	margin: 10px;
-}
+
 	
 /*------------------------statick footer------------------------*/
 .footer1 {
